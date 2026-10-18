@@ -33,4 +33,4 @@ The backend that serves `api/` (IIS or a Linux host) is not part of this folder.
 
 ## Fonts
 
-`app.css` loads IBM Plex Sans (Latin and Arabic) and Sora from `assets/fonts/`. Those `.woff2` files were not in the source archive, so until they are added the page falls back to system fonts.
+`app.css` loads IBM Plex Sans (Latin and Arabic), Sora and JetBrains Mono from `assets/fonts/`. Those `.woff2` files were not in the source archive, so until they are added the page falls back to system fonts.
