@@ -8,8 +8,16 @@ portal/
   assets/
     app.css        styles
     store.js       data layer (server or local mode)
-    core.js, catalog.js, modules.js, engine.js, io.js,
-    views.js, reports.js, sample.js, chat.js, remote.js,
+    core.js, catalog.js, modules.js, engine.js, io.js
+    views/         the special pages (window.V), loaded in this order:
+      shared.js      registers, layout helpers and alerts the pages share
+      home.js        Home and its customisable dashboard
+      work.js        My Work Today, notifications, management dashboard
+      reference.js   knowledge base, holiday calendar
+      desk.js        service desk setup, technician assignment
+      requester.js   requester page (no sign-in)
+      admin.js       settings, integrations
+    reports.js, sample.js, chat.js, remote.js,
     employee.js, app.js
 ```
 
